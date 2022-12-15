@@ -13,7 +13,7 @@ function ViewAndEditPage() {
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
     setFavorites(JSON.parse(localStorage.getItem("favorites")));
-  }, [localStorage.getItem("favorites")]);
+  }, []);
 
   const deletePackage = (value) => {
     console.log("SELECTED VALUEE TO DELTEEE", value);

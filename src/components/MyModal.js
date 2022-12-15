@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import Modal from "react-modal";
 import Button from "./Button";
 function MyModal({ className, isOpen, onCancel, onDelete, bodyText, onClose }) {
